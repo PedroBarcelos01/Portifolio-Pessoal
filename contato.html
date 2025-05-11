@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <a href="inicio.html"><img src="img/icon.png"></a>
+
+        <nav>
+            <a href="inicio.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="curriculo.html">Currículo</a>
+            <a href="portifolio.html">Portifólio</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contato">
+            <p class="msg">Todos os campos são de preenchimento obrigatório.</p>
+            <form action="">
+                    <div class="nome">
+                        <input type="text" name="Nome" placeholder="Nome Completo" required>
+                    </div>
+                    <div class="empresa">
+                        <input type="text" name="Empresa" placeholder="Nome da Empresa" required>
+                    </div>
+                    <div class="comunicacao">
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <input type="tel" name="Telefone" placeholder="Telefone" required>
+                    </div>
+                    <div class="mensagem">
+                        <textarea name="Mensagem" placeholder="Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" data-button>Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        Pedro Barcelos © 2025 Todos os direitos reservados.
+    </footer>
+
+    <script src="botao.js"></script>
+</body>
+</html>
